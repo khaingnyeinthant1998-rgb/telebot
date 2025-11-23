@@ -18,7 +18,7 @@ def run_web_server():
     app.run(host='0.0.0.0', port=port)
 
 # --- Part 2: Bot Configuration ---
-TOKEN = 'YOUR_BOT_TOKEN_HERE' # Token ထည့်ပါ
+TOKEN = '8528654999:AAG4xEPgWZYvzGqT6nSZNl8oigJrsJXNJEw' # Token ထည့်ပါ
 bot = telebot.TeleBot(TOKEN)
 
 # Retry Logic ပါဝင်သော Edge TTS Function
